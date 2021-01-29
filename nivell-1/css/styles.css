@@ -1,7 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,600,800);
-body, ul, li {
+body, li {
   margin: 0;
   padding: 0;
+  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding-left: 15px;
   font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -21,7 +27,7 @@ header nav {
 }
 header nav li {
   display: inline-block;
-  margin: 0 15px;
+  margin: 0 20px;
   vertical-align: baseline;
 }
 header nav li a {
@@ -30,12 +36,18 @@ header nav li a {
 }
 
 main {
-  margin: 20px 0 0;
-  padding-bottom: 20px;
+  margin: 20px 0 0 20px;
+  padding: 0px 15px 20px 15px;
 }
 
 img {
   margin: 20px;
+}
+
+#greenprogram {
+  position: inline;
+  padding-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 footer {
